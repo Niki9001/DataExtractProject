@@ -7,6 +7,7 @@ for j in range(1,187):
     #pdf存储地址
     url = f'H:\Training_profile\Profile ({j}).pdf'
 
+    
 # 打开PDF文件
     with pdfplumber.open(url) as pdf:
     # 遍历每一页
